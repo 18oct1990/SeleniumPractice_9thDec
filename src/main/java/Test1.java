@@ -22,7 +22,7 @@ public class Test1 {
         driver.findElement(By.id("name")).sendKeys("Amit");
        
 
-        // Close the browser
-        //driver.quit();
+        //Close the browser
+        driver.quit();
     }
 }
